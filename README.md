@@ -21,7 +21,11 @@ You sign in with your Microcommerce admin login. MCP access must be turned on fo
 
 Then run `/mcp`, choose `microcommerce` and sign in.
 
-**Codex**: `codex plugin marketplace add microcasting/microcommerce-plugin`, then open `/plugins` and install Microcommerce.
+**Codex**: `codex plugin marketplace add microcasting/microcommerce-plugin`, then open `/plugins` and install Microcommerce. Before you sign in, add this line to the `[mcp_servers.microcommerce.oauth]` section of `~/.codex/config.toml`, so Codex signs in on the port Microcommerce accepts:
+
+```toml
+callback_port = 29352
+```
 
 **ChatGPT** (Business, Enterprise and Edu): a workspace admin adds the plugin and publishes it to the workspace from ChatGPT Plugins; members then install it and sign in.
 

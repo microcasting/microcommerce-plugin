@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "microcommerce",
+  "version": "1.0.0",
+  "description": "Your brand's visibility in AI answers: a weekly review, recommendation triage and plain-language reports, through the Microcommerce connector.",
+  "author": {
+    "name": "Microcommerce",
+    "url": "https://microcommerce.ai"
+  },
+  "homepage": "https://microcommerce.ai",
+  "repository": "https://github.com/microcasting/microcommerce-plugin",
+  "keywords": ["geo", "ai visibility", "ecommerce", "microcommerce"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Microcommerce",
+        "shortDescription": "Your brand in AI answers",
+        "longDescription": "Connects to your Microcommerce workspace to read and work on your brand's visibility in AI answers: where your current cycle stands, which tracked buyer questions are rising or decaying, who gets cited and recommended instead of you, and what to do next. Includes a weekly review, a walk through open recommendations that records only the decisions you agree to, and plain-language explanations of the reports. Sign in with your Microcommerce admin login; you see only the organizations your membership allows. Some steps, such as starting a cycle or publishing a product description, are done in the Microcommerce admin.",
+        "developerName": "Microcommerce",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://microcommerce.ai",
+        "defaultPrompt": [
+          "Give me this week's review of our visibility in AI answers.",
+          "Walk me through our open recommendations.",
+          "Explain our prompt report as if I've never seen it."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "microcommerce",
+  "description": "The Microcommerce plugin: its connector and skills.",
+  "owner": {
+    "name": "Microcommerce",
+    "url": "https://microcommerce.ai"
+  },
+  "plugins": [
+    {
+      "name": "microcommerce",
+      "source": "./",
+      "description": "Your brand's visibility in AI answers: a weekly review, recommendation triage and plain-language reports, through the Microcommerce connector.",
+      "category": "productivity"
+    }
+  ]
+}

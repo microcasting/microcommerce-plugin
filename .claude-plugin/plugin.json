@@ -1,0 +1,12 @@
+{
+  "name": "microcommerce",
+  "version": "1.0.0",
+  "description": "Your brand's visibility in AI answers: a weekly review, recommendation triage and plain-language reports, through the Microcommerce connector.",
+  "author": {
+    "name": "Microcommerce",
+    "url": "https://microcommerce.ai"
+  },
+  "homepage": "https://microcommerce.ai",
+  "repository": "https://github.com/microcasting/microcommerce-plugin",
+  "keywords": ["geo", "ai visibility", "ecommerce", "microcommerce"]
+}

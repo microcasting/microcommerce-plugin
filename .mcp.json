@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "microcommerce": {
+      "type": "http",
+      "url": "https://admin.microcommerce.ai/api/mcp",
+      "oauth": {
+        "clientId": "1srvumubr8lv09iovr6it6s69e",
+        "callbackPort": 29352
+      }
+    }
+  }
+}

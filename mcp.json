@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "microcommerce": {
+      "type": "streamable-http",
+      "url": "https://admin.microcommerce.ai/api/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "provided",
+              "clientId": "1srvumubr8lv09iovr6it6s69e",
+              "tokenEndpointAuthMethod": "none"
+            },
+            "defaultScopes": ["geo/read", "geo/write"]
+          }
+        }
+      }
+    }
+  }
+}

@@ -27,7 +27,7 @@ Then run `/mcp`, choose `microcommerce` and sign in.
 callback_port = 29352
 ```
 
-**ChatGPT** (Business, Enterprise and Edu): installing this plugin in ChatGPT brings the skills, but ChatGPT does not yet offer a sign-in for its connector. Add the connector yourself on chatgpt.com (web, not the desktop app): **Plugins**, **+**, **Add custom MCP server**, with the server URL `https://admin.microcommerce.ai/api/mcp`, OAuth with client ID `1srvumubr8lv09iovr6it6s69e` and no secret, PKCE (S256) on, and scopes `geo/read geo/write`. Your Microcommerce contact can confirm the callback URL the form shows.
+**ChatGPT** (Business, Enterprise and Edu): installing this plugin in ChatGPT brings the skills, but ChatGPT does not yet offer a sign-in for its connector. Add the connector yourself on chatgpt.com (web, not the desktop app): **Plugins**, **+**, **Add custom MCP server**, with the server URL `https://admin.microcommerce.ai/api/mcp`, OAuth with client ID `1srvumubr8lv09iovr6it6s69e` and no secret, PKCE (S256) on, and scopes `openid geo/read geo/write`. Your Microcommerce contact can confirm the callback URL the form shows.
 
 ## Layout
 

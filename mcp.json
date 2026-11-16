@@ -13,7 +13,7 @@
               "clientId": "1srvumubr8lv09iovr6it6s69e",
               "tokenEndpointAuthMethod": "none"
             },
-            "defaultScopes": ["geo/read", "geo/write"]
+            "defaultScopes": ["openid", "geo/read", "geo/write"]
           }
         }
       }

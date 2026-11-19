@@ -54,7 +54,7 @@ Older material may say **watch** or **healthy**. Those statuses are retired and 
 
 **Opportunities.** Content gaps ranked by priority, with estimated revenue and traffic. These are estimates, not forecasts.
 
-**GEO revenue.** Revenue credited to AI answers and to guides, by default the last touch within 90 days. AI traffic is counted for the whole organization, not one portal.
+**GEO revenue.** Revenue credited to AI answers and to guides, by default AI Search Attributed over 90 days: an order goes to its latest visit from an AI engine or onto a guide, and an order with no such visit to its last touch. The headline figure is titled "AI Search Attributed Revenue" with its window. AI traffic is counted for the whole organization, not one portal.
 
 ## Reading honestly
 
